@@ -9,7 +9,7 @@ RUN mkdir /opt/aspectj && cd /opt/aspectj &&\
 ENV CATALINA_OPTS="$CATALINA_OPTS -javaagent:/opt/aspectj/aspectjweaver-1.8.2.jar"
 
 # Pull petclinic
-RUN git clone https://github.com/guruwiz/spring-petclinic.git
+RUN git clone https://github.com/skyshop300/spring-petclinic.git
 
 # Build petclinic
 WORKDIR /spring-petclinic
